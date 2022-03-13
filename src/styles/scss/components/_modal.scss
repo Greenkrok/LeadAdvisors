@@ -6,10 +6,10 @@
     height: 100%;
     background: rgba(22, 44, 78, 0.6);
     cursor: pointer;
-}
 
-.modal.open {
-    display: block;
+    .open {
+        display: block;
+    }
 }
 
 .popap {
@@ -22,59 +22,59 @@
     background: $white;
     padding: 97.47px 16px 69.62px 24px;
     cursor: default;
-}
 
-.popap__close {
-    position: absolute;
-    top: 24px;
-    right: 16px;
-    width: 24px;
-    cursor: pointer;
-}
+    &__close {
+        position: absolute;
+        top: 24px;
+        right: 16px;
+        width: 24px;
+        cursor: pointer;
 
-.popap__close::before {
-    content: '';
-    position: absolute;
-    top: 10px;
-    display: block;
-    width: 32px;
-    height: 2px;
-    background: rgba(19, 89, 120, 0.5);
-    margin-bottom: -3.5px;
-    transform: rotate(-45deg);
-}
+        &::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            display: block;
+            width: 32px;
+            height: 2px;
+            background: rgba(19, 89, 120, 0.5);
+            margin-bottom: -3.5px;
+            transform: rotate(-45deg);
+        }
+        
+        &::after {
+            content: '';
+            position: absolute;
+            top: 10px;
+            display: block;
+            width: 32px;
+            height: 2px;
+            background: rgba(19, 89, 120, 0.5);
+            transform: rotate(45deg);
+        }
+    }
 
-.popap__close::after {
-    content: '';
-    position: absolute;
-    top: 10px;
-    display: block;
-    width: 32px;
-    height: 2px;
-    background: rgba(19, 89, 120, 0.5);
-    transform: rotate(45deg);
-}
-
-.popap__title {
-    margin-bottom: 28.84px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 104%;
-    text-transform: uppercase;
-    color: $blue;
-}
-
-.popap__text {
-    font-size: 16px;
-    line-height: 150%;
-}
-
-.popap__btn {
-    background: $blue-light;
-    border-radius: $border-radius;
-    color: $white;
-    font-family: 'Poppins';
-    font-size: 18px;
-    margin-top: 29.84px;
-    padding: 16px 73px 16.68px 74px;
+    &__title {
+        margin-bottom: 28.84px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 104%;
+        text-transform: uppercase;
+        color: $blue;
+    }
+    
+    &__text {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+    &__btn {
+        background: $blue-light;
+        border-radius: $border-radius;
+        color: $white;
+        font-family: 'Poppins';
+        font-size: 18px;
+        margin-top: 29.84px;
+        padding: 16px 73px 16.68px 74px;
+    }
 }

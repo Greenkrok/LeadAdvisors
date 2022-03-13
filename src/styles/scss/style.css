@@ -264,7 +264,7 @@
   cursor: pointer;
 }
 
-.modal.open {
+.modal .open {
   display: block;
 }
 
