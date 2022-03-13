@@ -1,0 +1,15 @@
+@import "./form";
+
+.footer {
+    padding-top: 61px;
+    padding-bottom: 72px;
+    background-color: $blue;
+
+    @media (max-width: 1919px) {
+        padding: 59px 0;
+    }
+    
+    @media (max-width: 767px) {
+        padding: 50px 0;
+    }
+}

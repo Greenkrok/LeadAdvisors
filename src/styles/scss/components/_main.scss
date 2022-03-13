@@ -1,0 +1,38 @@
+@import "./timer";
+@import "./button";
+
+.main {
+    flex: 1;
+    margin-bottom: 76px;
+
+    @media (max-width: 1919px) {
+        margin-bottom: 169px;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 86px;
+    }
+    
+
+    &__title {
+        margin-bottom: 8px;
+
+        @media (max-width: 1919px) {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 767px) {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__subtitle {
+        margin: 0 auto 12px auto;
+        max-width: 423px;
+
+        @media (max-width: 1919px) {
+            margin-bottom: 15px;
+            max-width: 286px;
+        }
+    }
+}
