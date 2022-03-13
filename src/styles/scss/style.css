@@ -170,13 +170,12 @@
 }
 
 .main__subtitle {
-  margin: 0 auto 12px auto;
+  margin: 0 auto;
   max-width: 423px;
 }
 
 @media (max-width: 1919px) {
   .main__subtitle {
-    margin-bottom: 15px;
     max-width: 286px;
   }
 }
