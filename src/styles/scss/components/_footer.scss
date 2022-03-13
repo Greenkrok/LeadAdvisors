@@ -1,8 +1,7 @@
 @import "./form";
 
 .footer {
-    padding-top: 61px;
-    padding-bottom: 72px;
+    padding: 60px 0;
     background-color: $blue;
 
     @media (max-width: 1919px) {
