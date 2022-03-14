@@ -263,10 +263,6 @@
   cursor: pointer;
 }
 
-.modal .open {
-  display: block;
-}
-
 .popap {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -390,6 +386,10 @@ h1 {
 
 button {
   cursor: pointer;
+}
+
+.open {
+  display: block;
 }
 
 .arrow {
