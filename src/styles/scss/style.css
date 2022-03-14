@@ -360,6 +360,7 @@ body {
 @media (max-width: 1919px) {
   body {
     background: url(../../img/body/background__body_left_med.png) top left no-repeat, url(../../img/body/background__body_right_med.png) top right no-repeat;
+    font-size: 16px;
   }
 }
 
