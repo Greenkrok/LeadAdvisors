@@ -9,9 +9,9 @@
     }
 
     &__item {
+        position: relative;
         display: flex;
         flex-direction: column;
-        position: relative;
 
         &:not(:last-child) {
             margin-right: 20px;
@@ -27,12 +27,12 @@
 
         &:not(:last-child):after {
             content: ":";
-            color: $blue;
             position: absolute;
             right: -25px;
             font-weight: 600;
             font-size: 72px;
             line-height: 100%;
+            color: $blue;
 
             @media (max-width: 1919px) {
                 font-size: 36px;
@@ -56,15 +56,15 @@
     }
 
     &__text {
-        width: 132px;
-        height: 54px;
-        background: url(../../img/background__timer.png) center no-repeat;
-        background-size: 100% 100%;
-        color: $white;
-        line-height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 132px;
+        height: 54px;
+        line-height: 100%;
+        color: $white;
+        background: url(../../img/background__timer.png) center no-repeat;
+        background-size: 100% 100%;
 
         @media (max-width: 1919px) {
             width: 64px;

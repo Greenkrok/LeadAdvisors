@@ -1,7 +1,7 @@
 .modal {
-    display: none;
     position: fixed;
     z-index: 100;
+    display: none;
     width: 100%;
     height: 100%;
     background: rgba(22, 44, 78, 0.6);
@@ -9,14 +9,14 @@
 }
 
 .popap {
-    transform: translate(-50%, -50%);
     position: absolute; 
     top: 50%; 
     left: 50%;
     width: 320px;
     height: 370px;
-    background: $white;
     padding: 97.47px 16px 69.62px 24px;
+    background: $white;
+    transform: translate(-50%, -50%);
     cursor: default;
 
     &__close {
@@ -33,8 +33,8 @@
             display: block;
             width: 32px;
             height: 2px;
-            background: rgba(19, 89, 120, 0.5);
             margin-bottom: -3.5px;
+            background: rgba(19, 89, 120, 0.5);
             transform: rotate(-45deg);
         }
         
@@ -55,8 +55,8 @@
         font-weight: 700;
         font-size: 36px;
         line-height: 104%;
-        text-transform: uppercase;
         color: $blue;
+        text-transform: uppercase;
     }
     
     &__text {
@@ -65,12 +65,12 @@
     }
     
     &__btn {
-        background: $blue-light;
-        border-radius: $border-radius;
-        color: $white;
-        font-family: 'Poppins';
-        font-size: 18px;
         margin-top: 29.84px;
         padding: 16px 73px 16.68px 74px;
+        font-family: 'Poppins';
+        font-size: 18px;
+        color: $white;
+        background: $blue-light;
+        border-radius: $border-radius;
     }
 }

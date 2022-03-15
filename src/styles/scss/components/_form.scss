@@ -1,21 +1,21 @@
 .email-form {
     position: relative;
-    background: $white;
     display: inline-flex;
+    background: $white;
     border-radius: $border-radius;
 
     &__input {
-        font-size: 18px;
+        width: 440px;
         margin: 16px 27px;
+        font-size: 18px;
         border: none;
         resize: none;
         overflow: hidden;
-        width: 440px;
 
         @media (max-width: 1919px) {
-            font-size: 14px;
-            margin: 10px 20px;
             width: 360px;
+            margin: 10px 20px;
+            font-size: 14px;
         }
 
         @media (max-width: 767px) {
@@ -24,12 +24,12 @@
     }
 
     &__btn {
-        width: 43px;
-        height: 43px;
         position: absolute;
         right: 0;
-        background: $red;
+        width: 43px;
+        height: 43px;
         margin: 8px;
+        background: $red;
         border-radius: $border-radius;
 
         @media (max-width: 1919px) {
