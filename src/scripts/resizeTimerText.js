@@ -3,8 +3,8 @@ const updateText = () => {
     const hours = document.querySelector('#text_hours');
     const minutes = document.querySelector('#text_minutes');
     const seconds = document.querySelector('#text_seconds');
-  
-    window.addEventListener('resize', () => {
+
+    const handler = () => {
       const screenWidth = document.documentElement.clientWidth;
   
       if (screenWidth > 1919) {
@@ -18,7 +18,10 @@ const updateText = () => {
         minutes.innerText = 'MM';
         seconds.innerText = 'SS';
       }
-    });
+    }
+  
+    window.addEventListener('DOMContentLoaded', handler);
+    window.addEventListener('resize', handler);
   }
 
   updateText();
