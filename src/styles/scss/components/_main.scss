@@ -5,11 +5,11 @@
     flex: 1;
     margin-bottom: 76px;
 
-    @media (max-width: 1919px) {
+    @media (max-width: $tablet) {
         margin-bottom: 169px;
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: $mobile) {
         margin-bottom: 86px;
     }
     
@@ -17,11 +17,11 @@
     &__title {
         margin-bottom: 8px;
 
-        @media (max-width: 1919px) {
+        @media (max-width: $tablet) {
             margin-bottom: 20px;
         }
 
-        @media (max-width: 767px) {
+        @media (max-width: $mobile) {
             margin-bottom: 16px;
         }
     }
@@ -30,7 +30,7 @@
         max-width: 423px;
         margin: 0 auto;
 
-        @media (max-width: 1919px) {
+        @media (max-width: $tablet) {
             max-width: 286px;
         }
     }

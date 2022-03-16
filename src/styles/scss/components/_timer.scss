@@ -4,7 +4,7 @@
     margin-top: 32px;
     margin-bottom: 72px;
     
-    @media (max-width: 1919px) {
+    @media (max-width: $tablet) {
         margin: 40px 0;
     }
 
@@ -16,29 +16,29 @@
         &:not(:last-child) {
             margin-right: 20px;
 
-            @media (max-width: 1919px) {
+            @media (max-width: $tablet) {
                 margin-right: 34px;
             }
 
-            @media (max-width: 767px) {
+            @media (max-width: $mobile) {
                 margin-right: 18px;
             }
         }
 
         &:not(:last-child):after {
-            content: ":";
             position: absolute;
             right: -25px;
             font-weight: 600;
             font-size: 72px;
             line-height: 100%;
             color: $blue;
+            content: ":";
 
-            @media (max-width: 1919px) {
+            @media (max-width: $tablet) {
                 font-size: 36px;
             }
             
-            @media (max-width: 767px) {
+            @media (max-width: $mobile) {
                 right: -20px;
             }
           }
@@ -50,7 +50,7 @@
         line-height: 100%;
         color: $blue;
 
-        @media (max-width: 1919px) {
+        @media (max-width: $tablet) {
             font-size: 36px
         }
     }
@@ -66,7 +66,7 @@
         background: url(../../img/background__timer.png) center no-repeat;
         background-size: 100% 100%;
 
-        @media (max-width: 1919px) {
+        @media (max-width: $tablet) {
             width: 64px;
             height: 40px;
         }
