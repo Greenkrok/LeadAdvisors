@@ -1,6 +1,4 @@
 # <a href="https://greenkrok.github.io/LeadAdvisors/"> Watch here </a>
-
-Тестовое задание Egorov Agence для Front-end Trainee
  
 Задача:
 1. Сверстать адаптивный макет страницы по ссылке https://www.figma.com/file/d5IdsQyRJf6W7YDTgJqUky/EA-Test-Front-End?node-id=0%3A1.
